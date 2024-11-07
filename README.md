@@ -10,7 +10,7 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 4. Allez dans la liste déroulante a droite du "Commit" et cliquer sur "Commit & Push".
 
 ## Contributeurs
-•  - Auteur principal
+•  https://github.com/MathisR07 - Auteur principal
 
 Licence
 Copyright @ 2023 Votre Nom. Tous droits réservés.
