@@ -1,0 +1,195 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(180, 174, 174);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+img {
+    display: block;
+   
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+.logo {
+    width: 70px;
+}
+
+.img1 {
+    width: 65%;
+    border-radius: 15px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+}
+
+
+.button1 {
+    color: gray;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+.button1:hover {
+    color: black;
+}
+
+
+.acceuil1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: end;
+    margin: 1rem;
+}
+
+
+.button {
+    background: blueviolet;
+    display: inline-block;
+    color: black;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+
+.title1 {
+    font-size: 36pt;
+}
+
+
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-fonctionality {
+    display: flex;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.valor {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+
+.footer {
+    text-align: center;
+}
+
+
+.img-galerie {
+    width: 85%;
+    height: 85%;
+    border-radius: 15px;
+}
+
+
+.galerie {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.img-center {
+    grid-row: span 2;
+}
+
+.img-center1 {
+    width: 500px;
+    border-radius: 15px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+td{
+    border: 1px solid black;
+}
+
+
+.tableh{
+    background: green;
+}
+
+.check {
+    text-align: center;
+}
+
+
+form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+}
+
+
+.contact{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em;
+
+    border-radius: 5px;
+}
+
+
+.send-button{
+    background-color: rgb(32, 226, 32);
+    border-color: rgb(32, 226, 32);
+    border-radius: 5px;
+    color: white;
+    grid-column: span 2;
+}
+
+.send-button:hover{
+    background-color: rgba(255, 255, 255, 0.432);
+    border-color:  rgba(255, 255, 255, 0.432) ;
+}

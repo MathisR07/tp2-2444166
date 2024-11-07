@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="title">
+            <img class="logo" src="img/125689.png" alt="Logo">
+            <h1>Micro-Créateur 2000</h1>
+        </div>
+        <nav>
+            <a class="button1" href="index.html">Acceuil</a>
+            <a class="button1" href="Galerie.html">Galerie</a>
+            <a class="button1" href="Contactez-nous.html">Contactez-nous</a>
+        </nav>
+    </header>
+    <main class="contact">
+        <form action="Contactez-nous.html" method="post">
+            <label for="name">Nom complet : </label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">Adresse courriel : </label>
+            <input type="email" name="email" id="email" required>
+            <label for="subject">Sujet : </label>
+            <select id="subject" name="subject">
+                <option value="sup" selected>Support</option>
+                <option value="pos">Postuler</option>
+                <option value="aut">autre</option>
+            </select>
+            <label for="message">Message : </label>
+            <textarea name="message" id="message" required></textarea>
+            <label for="info">Recevoir notre infolettre</label>
+            <div>
+                <input type="checkbox" name="info" id="info" checked>
+            </div>
+            <label for="frequency">Fréquence des infolettres : </label>
+            <div>
+                <input type="radio" id="weekly" name="frequency" value="week" checked />
+                <label for="weekly">hebdomadaire </label>
+                <input type="radio" id="monthly" name="frequency" value="month" />
+                <label for="monthly">mensuel </label>
+                <input type="radio" id="yearly" name="frequency" value="year" />
+                <label for="yearly">Annuel </label>
+            </div>
+            <input class="send-button" type="submit" value="Envoyer" />
+        </form>
+
+    </main>
+    <footer class="footer">
+        Micro-Créateur 2000-<a class="button1" href="Contactez-nous.html">Contactez-nous</a>-© 2024 Mathis Roy
+    </footer>
+</body>
+
+</html>
