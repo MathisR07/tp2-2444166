@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 # Travail Pratique 2-GIT
-=======
-# Travail Pratique 2-GIT
->>>>>>> 06353e0b9b539e8bda2d8953bd9dff8d7eabc290
 
 Ce dépôt contient le code d’un projet web fait dans le cours de Perspective Professionnelles.
 
