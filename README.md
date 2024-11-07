@@ -13,4 +13,4 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 •  https://github.com/MathisR07 - Auteur principal
 
 Licence
-Copyright @ 2023 Votre Nom. Tous droits réservés.
+Copyright @ 2023 Mathis Roy. Tous droits réservés.
